@@ -1,17 +1,5 @@
 # Spring vs Fall Thunderstorm Wind Events in Texas (1955–2025)
 
-The purpose of this module will be to compare the number of severe weather events in Texas between meterological fall and spring.
-The data set in this module is using "Thunderstorm Wind" events from the Storm Events Database, https://www.ncei.noaa.gov/stormevents.
-
-The real purpose of this module is to see if there is an increase in severe storms in these seasons over the past 70 years, as especially recently we have had very active fall severe seasons so I wanted to see if there was truth behind that thought. 
-Using "Thunderstorm Wind" events was more by how the ncei site allows you to download this data and from the filters that were avalible, thunderstorm wind allowed the broadest bearth of severe events that it could be used to get a simple numbers advandtage to get a decent ammount of data as you can see by some of the earlier decades, the data is sparse.
-
-
-- NOAA/NCEI Storm Events Database: NOAA National Centers for Environmental Information (NCEI). Storm Events Database. Accessed Dec 2025. DOI: 10.7289/V5KW5D8S.
-- U.S. Census Bureau, Cartographic Boundary Files, Counties, 2018 (5m). Accessed Dec 2025.
-
-# Spring vs Fall Thunderstorm Wind Events in Texas (1955–2025)
-
 Thunderstorm wind events are a major hazard in Texas, causing damage to property and risks to public safety. In recent years, fall severe weather seasons have seemed unusually active. This project asks a simple question:
 Are fall thunderstorm wind events increasing relative to spring over the past 70 years?
 
@@ -36,10 +24,9 @@ Are fall thunderstorm wind events increasing relative to spring over the past 70
 - 	These findings suggest that fall severe weather deserves greater attention in forecasting, planning, and public communication.
 
 **Reproducibility**
-- 	Environment: See  for dependencies.
-- 	Code: Core functions are in .
-- 	Notebook:  contains motivation, approach, results, and conclusions.
-- 	Data: Raw CSVs are not committed; download instructions are provided in .
+- 	Environment: See environment.yml for dependencies.
+- 	Notebook: storm_analysis.ipynb contains motivation, approach, results, and conclusions.
+- 	Data: Raw CSVs are not committed; download instructions are provided in Data.
 
 **Citations**
 - NOAA National Centers for Environmental Information (NCEI). Storm Events Database. Accessed Dec 2025. DOI: 10.7289/V5KW5D8S.
