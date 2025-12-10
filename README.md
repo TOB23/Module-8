@@ -1,20 +1,6 @@
-# ATMS-523-Module-2 Thomas Borgstedte
+# ATMS-523-Module-8 Thomas Borgstedte
 
-Install required libraries using the `environment.yml` file.  `mamba install environment.yml` then mamba activate `xarray-climate`.
+The purpose of this module will be to compare the number of severe weather events in Texas between meterological fall and spring.
+The data set in this module is using "Thunderstorm Wind" events from the Storm Events Database, https://www.ncei.noaa.gov/stormevents . Primarily using these types of events for the most broad and general coverage.
+This data is from March 1955 to July 2025, ovver the state of Texas.
 
-The Homework assignment can be completed in a new jupyter notebook that you commit to this repository.
-
-The examples from lecture 3 and 4 are here also.
-
-Make sure you install software as we did in the check in:
-   ```bash
-   mamba env create --prefix $HOME/envs/xarray-climate -f environment.yml
-   mamba activate $HOME/envs/xarray-climate
-   ```
-   or with pip:
-   ```bash
-   python -m venv .venv && source .venv/bin/activate
-   pip install -r requirements.txt
-   ```
-
-   and use this environment when running the codes and for your homework.
