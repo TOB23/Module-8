@@ -1,4 +1,4 @@
-name: xarray-climate
+name: data-analysis-env
 channels:
   - conda-forge
 dependencies:
@@ -6,8 +6,8 @@ dependencies:
   - jupyterlab
   - ipykernel
   - xarray
-  - dask
-  - zarr
+  - plotly
+  - geopandas
   - s3fs
   - fsspec
   - numpy
